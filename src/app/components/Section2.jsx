@@ -5,7 +5,7 @@ import { HoverBorderGradient } from "../components/ui/hover-border-gradient";
 function Section2() {
   return (
     <MaxWidthWrapper>
-        <div className='flex flex-col justify-center items-center text-center min-h-svh'>
+        <div className='flex flex-col justify-center items-center text-center mt-8 min-h-svh'>
             <div >
                 <p className='text-purple-500 font-thin text-lg uppercase'>How can I help?</p>
                 <p className='text-white text-5xl font-medium my-6'>Your Path to Success Starts Here</p>
