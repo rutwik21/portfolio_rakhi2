@@ -10,7 +10,7 @@ function Hero() {
     <main>
       <AuroraBackground className='relative overflow-hidden'>
         <MaxWidthWrapper>
-        <div className='md:flex md:gap-14 w-full h-svh text-white relative z-10 mt-24 items-center justify-center bg-transparent'>
+        <div className='md:flex md:gap-14 w-full min-h-svh text-white relative z-10 mt-24 items-center justify-center bg-transparent'>
           <div className='one-edge-shadow font-thin'>
             <h2 className='text-5xl -ms-2'><FlipWords words={WORDS}></FlipWords></h2> 
             <h2 className='text-5xl mt-2'>Curious about what I do?</h2> 

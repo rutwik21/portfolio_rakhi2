@@ -7,7 +7,7 @@ import { HoverBorderGradient } from "../components/ui/hover-border-gradient";
 function Section3() {
   return (
     <MaxWidthWrapper>
-    <div className='md:flex md:gap-14 w-full h-svh text-white relative z-10 mt-24 items-center justify-center bg-transparent'>
+    <div className='md:flex md:gap-14 w-full min-h-svh text-white relative z-10 mt-24 items-center justify-center bg-transparent'>
         <img src='/main2.png' className='one-edge-shadow min-w-[30svw] md:max-w-[40svw] max-w-[80svw] ' />
         
         <div className='one-edge-shadow font-thin'>

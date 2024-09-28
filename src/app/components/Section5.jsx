@@ -8,7 +8,7 @@ function Section5() {
   const WORDS = ['Hey there!', 'Hello,', 'Namaste,' ,'Hola!', 'Ciao,']
   return (
     <MaxWidthWrapper>
-        <div className='md:flex md:gap-14 w-full h-svh text-white relative z-10 mt-24 items-center justify-center bg-transparent'>
+        <div className='md:flex md:gap-14 w-full min-h-svh text-white relative z-10 mt-24 items-center justify-center bg-transparent'>
         <div className='one-edge-shadow font-thin'>
             <h2 className='text-5xl -ms-2 leading-[3.5rem]'>I’m here to help you achieve your goals through effective branding and organic growth.</h2> 
             
