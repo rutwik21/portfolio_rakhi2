@@ -29,3 +29,9 @@ body {
 .bg-card-gradient{
   background: rgb(0,0,0);background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 0%, rgb(148, 40, 248) 100%);
 }
+.text-gradient{
+  background: -webkit-linear-gradient(#ffffff,rgb(252, 77, 247));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

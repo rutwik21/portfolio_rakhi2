@@ -31,7 +31,7 @@ function Hero() {
               <p className=' mt-5'>Want to see how? Dive in and check out what I can do for you!</p>
             </div>
           </div>
-          <img src='/main.png' className='one-edge-shadow -mt-56 h-[120%] ' />
+          <img src='/main.png' className='one-edge-shadow min-w-52 md:max-w-[40svw] max-w-[80svw] ' />
         </div>
         </MaxWidthWrapper>
       </AuroraBackground>
