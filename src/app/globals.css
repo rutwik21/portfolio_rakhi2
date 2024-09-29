@@ -35,3 +35,38 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.bg-gradient-circle{
+  /* background: rgb(131,58,180); */
+background: radial-gradient(circle at 390px 320px , 
+rgb(92, 10, 146) 0%, 
+rgba(252,176,69,0) 24%);
+}
+.bg-gradient-circle-top-left{
+  /* background: rgb(131,58,180); */
+background: radial-gradient(circle at 150px 150px , 
+rgb(67, 1, 111) 0%, 
+rgba(252,176,69,0) 39%);
+}
+
+.gradient {
+	width: 100vw;
+	background: linear-gradient(334deg, #1b013d, #000000, #460a99);
+	background-size: 180% 180%;
+	animation: gradient-animation 6s ease infinite;
+}
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.card-bg-gradient{
+  background: rgb(34,1,55);
+  background: linear-gradient(148deg, rgba(34,1,55,1) 0%, rgba(255,255,255,0) 95%);}

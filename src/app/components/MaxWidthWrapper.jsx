@@ -4,7 +4,7 @@ import {cn} from '../lib/utils';
 function MaxWidthWrapper({className,children}) {
     return (
       <div className={cn(
-        'mx-auto w-full max-w-screen-xl px-2.5 md:px-5',
+        'mx-auto w-full max-w-screen-xl px-2.5 md:px-28',
         className
       )}>{children}</div>
     )

@@ -6,9 +6,9 @@ import { Star } from "lucide-react";
 
 function Testimonials() {
   return (
-    <MaxWidthWrapper className='min-h-svh pt-20 place-content-center'>
-        <div className="p-4 border flex justify-center mt-5 gap-5 rounded-3xl dark:bg-neutral-900 bg-neutral-100  border-neutral-200 dark:border-neutral-800 px-4">
-            <div className='place-content-center w-5/12'>
+    <MaxWidthWrapper className='px-5 md:px-0 min-h-svh pt-20 place-content-center'>
+        <div className="p-4 border md:flex justify-center mt-5 gap-5 rounded-3xl dark:bg-neutral-900 bg-neutral-100  border-neutral-200 dark:border-neutral-800 px-4">
+            <div className='place-content-center md:w-5/12'>
                 <div className='flex items-center gap-1 align-middle'>
 
                     <Star className='text-purple-500'/>
@@ -28,24 +28,24 @@ function Testimonials() {
                 <h3 className='font-semibold text-xl text-purple-500'>Rutwik Kashid</h3>
                 <p className='text-gray-500'>Freelance web devloper</p>
             </div>
-            <div className='flex items-center align-middle'>
+            <div className='flex mt-4 md:mt-0 items-center align-middle'>
                 <Compare
                     firstImage="beforeLinkdin.png"
                     secondImage="afterLinkdin.png"
                     firstImageClassName="object-cover object-left-top"
                     secondImageClassname="object-cover object-left-top"
-                    className="h-[250px] w-[200px] md:h-[500px] md:w-[500px]"
+                    className="h-[300px] w-[300px] md:h-[500px] md:w-[500px]"
                     slideMode="hover"
                 />
             </div>
         </div>
-        <div className="p-4 flex justify-center mt-16 gap-20 ">
+        <div className="p-4 md:flex justify-center mt-16 gap-20 ">
             <div className='flex items-center align-middle'>
-                <video controls className='w-11/12 h-[70svh] border rounded-2xl' >
+                <video controls className='w-full md:w-11/12 h-[70svh] border rounded-2xl' >
                     <source src='deveshiTestimonial.mp4' />
                 </video>
             </div>
-            <div className='place-content-center w-5/12'>
+            <div className='place-content-center mt-5 md:mt-0 w-full md:w-5/12'>
                 <div className='flex items-center gap-1 align-middle'>
 
                     <Star className='text-purple-500'/>
